@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    height: 100px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: blue;
+    animation: animation111 350ms infinite;
+}
+@keyframes  animation111 {
+    0% {
+       transform: translateX(0px);
+       }
+    50%{
+        transform: translateY(100px);
+    }
+    75%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(100px);
+    }
+}
